@@ -1,0 +1,12 @@
+/* pages/question/page4.wxss */
+.page4-container{
+  text-align: center;
+  margin-top: 100rpx;
+}
+.answers{
+  margin-top:100rpx;
+}
+.btn{
+  width:50%;
+  margin-top:50rpx;
+}

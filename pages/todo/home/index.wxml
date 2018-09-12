@@ -1,0 +1,18 @@
+<view class="todo-container">
+  <view class='todo-input'>
+    <input placeholder='想做点什么呢？' auto-focus='' bindinput='bindKeyInput' value='{{inputValue}}'></input>
+  </view>
+  <view class='todo-button'>
+    <button bindtap='createTodo'>创建一个任务</button>
+  </view>
+  <view class='todo-list'>
+    <text class='todo-count'>共计{{count}}项任务</text>
+    <view class='todo-list-content'>
+      <view  class='todo-list-item' wx:for="{{items}}" wx:key="{{index}}">
+        <view bindtap='clickItem' data-name="{{index}}">
+          <image  class='list-item-icon' src='../../../images/icons/todo.png'></image>{{item}}
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

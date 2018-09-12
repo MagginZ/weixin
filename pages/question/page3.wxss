@@ -1,0 +1,16 @@
+/* pages/question/page3.wxss */
+.page3-container{
+  text-align: center;
+  margin-top: 100rpx;
+}
+.radio-group{
+  margin-top:100rpx;
+}
+.radio{
+  width:100%;
+  display:block;
+  margin:31rpx 0;
+}
+.radio-item{
+  margin-right:20rpx;
+}

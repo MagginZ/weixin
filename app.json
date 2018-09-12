@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/question/page1",
+    "pages/question/page2",
+    "pages/question/page3",
+    "pages/question/page4",
+    "pages/todo/home/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0269c8",
+    "navigationBarTitleText": "任务清单",
+    "navigationBarTextStyle":"#fff"
+  }
+}

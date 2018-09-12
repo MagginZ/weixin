@@ -1,0 +1,11 @@
+<!--pages/question/page1.wxml-->
+<view class='page1-container'>
+  <view>
+    选择您最喜欢吃的水果
+  </view>
+  <radio-group class="radio-group" bindchange="radioChange">
+    <label class="radio" wx:for="{{items}}">
+      <radio class='radio-item' value="{{item.name}}"/>{{item.value}}
+    </label>
+  </radio-group>
+</view>
