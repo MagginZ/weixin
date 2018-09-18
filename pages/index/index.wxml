@@ -10,5 +10,6 @@
   <view class="usermotto">
     <button class='begin-btn' type='primary' bindtap='begin'>demo1 趣味测试</button>
     <button class='begin-btn' type='primary' bindtap='todollist'>demo2 任务清单</button>
+    <button class='begin-btn' type='primary' bindtap='request'>demo3 网络请求</button>
   </view>
 </view>

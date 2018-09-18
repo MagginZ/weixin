@@ -20,6 +20,11 @@ Page({
       url: '../todo/home/index',
     })
   },
+  request: function () {
+    wx.navigateTo({
+      url: '../request/index',
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
