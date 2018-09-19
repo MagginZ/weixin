@@ -1,7 +1,7 @@
 // 获取小程序全局配置（变量、函数等）
 const app = getApp()
 // 定义网络请求API地址
-const baseURL = 'https://wxapi.028jyw.com'
+const baseURL = ''
 // 封装网络请求开始
 const http = ({ url, data, method} = {}) => {
   // 添加请求加载等待
