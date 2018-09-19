@@ -1,0 +1,19 @@
+<!--pages/meego/login/index.wxml-->
+<view class='login-container'>
+  <image src='../../../../images/imgs/login-bg.png' class='login-bg-img'></image>
+  <view class='login-content'>
+    <form bindsubmit="submit">
+      <view class='input-content'>
+        <text class='label'>手机号</text>
+        <input name="phone" value="8615183087452" class='input'></input>
+      </view>
+      <view class='input-content'>
+        <text class='label'>密码</text>
+        <input name="password" type='password' value="222222" class='input'></input>
+      </view>
+      <view class='submit-content'>
+        <button class='submit-btn' formType='submit'>登录</button>
+      </view>
+    </form>
+  </view>
+</view>

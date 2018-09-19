@@ -1,0 +1,17 @@
+<view class="home-container">
+  <image src='../../../../images/imgs/banner.png' class='banner-img'></image>
+  <view class='box my-profit'>
+    <text class='title'>我的收益</text>
+    <view class='profit-content write-box'>
+      <text class='yesterday-title desc'>昨日收益</text>
+      <view class='price'>{{price}}<text class='desc company'>BCDN</text> </view>
+      <view class='now-price'><text class='desc'>当前价格</text>{{priceNow}}</view>
+    </view>
+  </view>
+  <view class='box my-key'>
+    <text class='title'>快照公钥</text>
+    <view class='key-content write-box'>
+      <text class='key'>{{key}}</text>
+    </view>
+  </view>
+</view>

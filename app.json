@@ -1,18 +1,33 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/question/page1",
-    "pages/question/page2",
-    "pages/question/page3",
-    "pages/question/page4",
-    "pages/todo/home/index",
-    "pages/request/index"
+    "pages/meego/login/index",
+    "pages/meego/home/index",
+    "pages/meego/my/index"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#0269c8",
-    "navigationBarTitleText": "任务清单",
+    "navigationBarBackgroundColor": "#909BFD",
+    "navigationBarTitleText": "莓果demo",
     "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#909BFD",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/meego/home/index",
+        "text": "首页",
+        "selectedIconPath":"images/icons/home.png",
+        "iconPath": "images/icons/home(1).png"
+      },
+      {
+        "pagePath": "pages/meego/my/index",
+        "text": "我的",
+        "selectedIconPath": "images/icons/account.png",
+        "iconPath": "images/icons/account(1).png"
+      }
+    ]
   }
 }
