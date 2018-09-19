@@ -23,7 +23,7 @@ Page({
       })
     })
     // wx.request({
-    //   url: 'https://wxapi.028jyw.com/app/connect/signin',
+    //   url: '',
     //   data: params,
     //   method: 'post',
     //   complete: (res) => {
